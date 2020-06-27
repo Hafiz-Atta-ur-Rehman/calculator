@@ -1,0 +1,82 @@
+.main{
+    width: 400px;
+    height: 600px;
+    border: 5px solid rgb(238, 41, 41);
+    margin: auto;
+    background-image:url(r.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 720px;
+}
+.calc h3{
+    /* margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: lightpink; */
+
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: lightpink;
+}
+.inp input{
+    margin-top: 30px;
+    width: 98%;
+    height: 70px;
+    background-color: rgb(190, 99, 99);
+}
+button{
+
+    color: rgb(238, 41, 41);
+    background-color: lightpink;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#result{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 575.98px){
+    .main{
+        width: 400px;
+        height: 720px;
+        border: 5px solid rgb(238, 41, 41);
+        background-image:url(r.jpg);
+        background-repeat: no-repeat;
+        background-size: 400px 720px;
+    }
+    button{
+        margin-left: 13px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .inp input{
+        margin-top: 40px;
+        width: 98%;
+        height: 80px;
+        background-color: rgb(190, 99, 99);
+    }
+    .calc h3{
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: lightpink;
+    }
+    #result{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
